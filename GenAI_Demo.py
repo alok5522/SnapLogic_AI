@@ -54,10 +54,10 @@ st.sidebar.markdown("""
 
 # Main content with a nice background
 st.markdown("""
-    <div class="markdown-text-container">
-        ## 🚀 SnapLogic Gen AI Builder
-        Allows you to create LLM-based applications in no time!
-        ### **⬅️ Select a demo from the sidebar** to see some examples of what Gen AI Builder can do!
+    <div style="background-color: #F0F8FF; border-radius: 10px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+        <h2 style="color: #4B9CD3;">🚀 SnapLogic Gen AI Builder</h2>
+        <p style="font-size: 18px; color: #333333;">Allows you to create LLM-based applications in no time!</p>
+        <h3 style="color: #9C27B0;">⬅️ Select a demo from the sidebar to see some examples of what Gen AI Builder can do!</h3>
     </div>
 """, unsafe_allow_html=True)
 
