@@ -40,7 +40,7 @@ st.markdown(f"<h1 style='color:#4B9CD3;'>{title}</h1>", unsafe_allow_html=True)
 
 # Sidebar with a welcome message and cool accent colors
 st.sidebar.markdown("""
-    <div style="background-color: #333333; padding: 20px; color: white; border-radius: 8px;">
+    <div style="background-color: #dc750f; padding: 20px; color: white; border-radius: 8px;">
         <h3>Welcome to SnapLogic Gen AI Builder!</h3>
         <p style="font-size: 14px;">Choose from a variety of demos to see the potential of our tool.</p>
         <p><strong>📚 Learn More:</strong></p>
