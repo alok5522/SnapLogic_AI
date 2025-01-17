@@ -35,8 +35,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Set the title and subtitle for the main page
-st.title(f"<span style='color:#4B9CD3;'>{title}</span>", unsafe_allow_html=True)
+# Set the title and subtitle for the main page using markdown for custom styling
+st.markdown(f"<h1 style='color:#4B9CD3;'>{title}</h1>", unsafe_allow_html=True)
 
 # Sidebar with a welcome message and cool accent colors
 st.sidebar.markdown("""
