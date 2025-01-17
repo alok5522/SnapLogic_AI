@@ -20,7 +20,7 @@ st.markdown(
     
     ## SnapLogic Gen AI Builder allows you to create LLM-based applications in no time! 
     
-    ### **👈 Select a demo from the sidebar** to see some examples of what Gen AI Builder can do!
+    ### **⬅️Select a demo from the sidebar** to see some examples of what Gen AI Builder can do!
     
 """
 )
