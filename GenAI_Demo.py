@@ -25,7 +25,7 @@ st.markdown("""
         }
 
         /* Sidebar Styling */
-        .css-1v0mbdj { background-color: #222222; color: white; padding: 15px; }
+        .css-1v0mbdj { background-color: #4B9CD3; color: white; padding: 15px; }  /* Updated sidebar color */
 
         .css-1vq4g9d {
             background-color: #9C27B0;
