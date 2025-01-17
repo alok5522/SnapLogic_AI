@@ -6,12 +6,12 @@ from dotenv import dotenv_values
 # Load environment
 env = dotenv_values(".env")
 # SnapLogic RAG pipeline
-URL = env["SL_ECE_TASK_URL"]
-BEARER_TOKEN = env["SL_ECE_TASK_TOKEN"]
-timeout = int(env["SL_TASK_TIMEOUT"])
+URL = 'https://elastic.snaplogic.com/api/1/rest/slsched/feed/Partners/Infosys/Alok%20Tiwari/Hr_Chatbot%20Task'
+BEARER_TOKEN = "nJCtBssq8iSrBukCnN7Xr9220owukJET"
+timeout = int("90")
 # Streamlit Page Properties
-page_title=env["ECE_PAGE_TITLE"]
-title=env["ECE_TITLE"]
+page_title="E-Commerece DB Agent_Old"
+title="E-Commerece DB Agent_Old"
 
 def typewriter(text: str, speed: int):
     tokens = text.split()
